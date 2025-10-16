@@ -1,0 +1,323 @@
+@font-face {
+    font-family: 'MyFont Regular';
+    src: url(../fonts/Montserrat-Black.ttf) format(Montserrat-Black), url(../fonts/Cormorant-VariableFont_wght.ttf) format(Cormorant-VariableFont_wght);
+    font-display: swap;
+}
+
+body {
+    background-image: linear-gradient(to right, #FDF8F5, #ffe8e2);
+    overflow-x: hidden;
+    width: 100%;
+}
+
+
+.navbar {
+    background-image: linear-gradient(to right, #FDF8F5, #ffe8e2) !important;
+    background-color: transparent !important;
+    backdrop-filter: none;
+    position: fixed;
+    width: 100%;
+    z-index: 1030;
+}
+
+.navbar-nav .nav-item:nth-child(8) {
+    margin-left: 2rem !important;
+    position: relative;
+}
+
+.header-button {
+    width: 220;
+    height: 42;
+    opacity: 1;
+    border-width: 1px;
+    color: white;
+    background-color: #983E3E;
+    border: 1px solid #983E3E;
+}
+
+.header-button:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+.header-button:not(:hover) {
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.header-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #983E3E;
+    position: relative;
+    transition: 0.3s;
+}
+
+.header-text::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    width: 100%;
+    height: 6px;
+    background: #DA9F9F;
+    transform: translateX(-50%) scaleX(0);
+    transition: 0.3s;
+}
+
+.header-text:hover::after {
+    transform: translateX(-50%) scaleX(1);
+}
+
+.header-text:hover {
+    color: #983E3E;
+    transform: scale(1.03);
+}
+
+.header-text:not(:hover)::after {
+    transform: translateX(-50%) scaleX(0);
+}
+
+.header-text:not(:hover) {
+    transform: scale(1);
+    transition: color 0.3s, 0.3s;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.header-svg:not(:hover) {
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.header-svg:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+.page1-div {
+    margin-left: 13%;
+}
+
+@media (max-width:1920px) {
+    .page1-div {
+        width: 1087px;
+    }
+}
+
+.page1-par {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 441;
+    height: 29;
+    opacity: 1;
+    top: 152px;
+    left: 407px;
+
+}
+
+.page1-h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 86px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 463;
+    height: 54;
+    opacity: 1;
+    top: 175px;
+    left: 401px;
+    margin-bottom: 2%;
+}
+
+.page1-h2 {
+    margin-top: 2%;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 102%;
+    letter-spacing: 0%;
+    width: 1008px;
+    height: 147px;
+    opacity: 1;
+    top: 335px;
+    left: 407px;
+
+}
+
+.page1-h1 {
+    margin-top: 15px;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 102%;
+    letter-spacing: 0%;
+    width: 694;
+    height: 232.436767578125;
+    opacity: 1;
+    top: 426px;
+    left: 407px;
+
+}
+
+.page1 {
+    position: relative;
+    padding-top: 8%;
+    min-height: 1080px;
+    overflow: visible;
+}
+main{
+    background-image: url(../ass/Group.png);
+    background-position: top 8.5% right 50%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.page1::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../ass/pilates-woman.png);
+    background-repeat: no-repeat;
+    background-position: left 18% top 55%;
+
+    background-size: 50%;
+    transform: scaleX(-1);
+
+    top: -10%;
+    left: -10%;
+    width: 120%;
+    height: 120%;
+
+    filter: brightness(0.9);
+
+    z-index: -1;
+}
+
+.page1-con {
+    display: flex;
+    margin-top: 45px;
+    width: 1400px;
+    height: 89;
+    opacity: 1;
+    top: 599px;
+    left: 401px;
+
+}
+
+.page1-con-key1 {
+    width: 261px;
+    height: 89px;
+    opacity: 1;
+    top: 599px;
+    left: 401px;
+    justify-content: center;
+    margin-right: 40px;
+    display: flex;
+}
+
+.page1-con-key2 {
+    width: 329px;
+    height: 89px;
+    opacity: 1;
+    top: 599px;
+    left: 756px;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+}
+
+.page1-con-key3 {
+    width: 273px;
+    height: 89px;
+    opacity: 1;
+    top: 599px;
+    left: 1179px;
+    justify-content: center;
+    margin-left: 40px;
+    display: flex;
+}
+
+.page1-con-par {
+    margin-top: 7px;
+    margin-left: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.page1-button {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    width: 395px;
+    height: 80px;
+    opacity: 1;
+    top: 732px;
+    left: 401px;
+    opacity: 1;
+    border-width: 1px;
+    color: white;
+    background-color: #983E3E;
+    border: 1px solid #983E3E;
+    margin-top: 44px;
+}
+
+.page1-button:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+.page1-button:not(:hover) {
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.page2::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../ass/krut.png);
+    background-repeat: no-repeat;
+    background-position: left 50% top 155%;
+
+    background-size: 35%;
+    transform: scaleX(-1);
+
+    top: -10%;
+    left: -10%;
+    width: 120%;
+    height: 220%;
+
+    filter: brightness(1);
+
+    z-index: -1;
+}
+
+.page2-header{
+
+}
+
+.page2-h3{
+
+}
