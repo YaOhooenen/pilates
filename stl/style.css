@@ -181,7 +181,8 @@ body {
     min-height: 1080px;
     overflow: visible;
 }
-main{
+
+main {
     background-image: url(../ass/Group.png);
     background-position: top 8.5% right 50%;
     background-size: 50%;
@@ -292,32 +293,163 @@ main{
     transition: 0.3s;
 }
 
-.page2::after {
+.page2 {
     content: "";
     position: absolute;
     width: 100%;
     height: 100%;
+    background-color: white;
     background-image: url(../ass/krut.png);
     background-repeat: no-repeat;
-    background-position: left 50% top 155%;
+    background-position: 50% 18%;
 
-    background-size: 35%;
-    transform: scaleX(-1);
+    background-size: 25%;
+    transform: scaleX(1);
 
-    top: -10%;
-    left: -10%;
-    width: 120%;
+    top: 120%;
+    left: 0%;
+    width: 100%;
     height: 220%;
 
     filter: brightness(1);
 
     z-index: -1;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-.page2-header{
-
+.page2-header {
+    margin: 2%;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-.page2-h3{
+.page2-h3 {
+    font-family: Cormorant;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
 
+.page2-header-par {
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.page2-krut {
+    justify-content: space-between;
+    margin-top: 2%;
+    display:flex;
+    width: 37%;
+    height: 13%;
+}
+
+.krut-el-left {
+    margin-top: 31%;
+    display: flex;
+    height: 22%;
+}
+
+.krut-el-svg1:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.krut-el-svg1:not(:hover){
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.krut-el-svg2:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.krut-el-svg2:not(:hover){
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.krut-el-svg3:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.krut-el-svg3:not(:hover){
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    min-width: 200px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.krut-el-svg1:hover .dropdown-content1 {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(5px);
+}
+
+.krut-el-svg2:hover .dropdown-content2 {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(5px);
+}
+
+.krut-el-svg3:hover .dropdown-content3 {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(5px);
+}
+
+.krut-el-top {
+    display: flex;
+    height: 22%;
+}
+
+.krut-el-right {
+    margin-top: 31%;
+    display: flex;
+    height: 22%;
+}
+
+.krut-el-par{
+    margin-right: 5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 7%;
+    font-weight: bold;
+}
+
+.page2-foot-par {
+    margin-top: 11.5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: center;
 }
