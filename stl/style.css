@@ -301,7 +301,7 @@ main {
     background-color: white;
     background-image: url(../ass/krut.png);
     background-repeat: no-repeat;
-    background-position: 50% 18%;
+    background-position: 50% 68%;
 
     background-size: 25%;
     transform: scaleX(1);
@@ -309,7 +309,7 @@ main {
     top: 120%;
     left: 0%;
     width: 100%;
-    height: 220%;
+    height: 85%;
 
     filter: brightness(1);
 
@@ -349,8 +349,8 @@ main {
 
 .page2-krut {
     justify-content: space-between;
-    margin-top: 2%;
-    display:flex;
+    margin-top: 1%;
+    display: flex;
     width: 37%;
     height: 13%;
 }
@@ -359,85 +359,140 @@ main {
     margin-top: 31%;
     display: flex;
     height: 22%;
-}
-
-.krut-el-svg1:hover{
-    transform: scale(1.1);
-    transition: 0.3s;
-}
-
-.krut-el-svg1:not(:hover){
-    transform: scale(1);
-    transition: 0.3s;
-}
-
-.krut-el-svg2:hover{
-    transform: scale(1.1);
-    transition: 0.3s;
-}
-
-.krut-el-svg2:not(:hover){
-    transform: scale(1);
-    transition: 0.3s;
-}
-
-.krut-el-svg3:hover{
-    transform: scale(1.1);
-    transition: 0.3s;
-}
-
-.krut-el-svg3:not(:hover){
-    transform: scale(1);
-    transition: 0.3s;
-}
-
-.dropdown-content {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 1rem;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    min-width: 200px;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s ease;
-    z-index: 1000;
-}
-
-.krut-el-svg1:hover .dropdown-content1 {
-    opacity: 1;
-    visibility: visible;
-    transform: translateX(-50%) translateY(5px);
-}
-
-.krut-el-svg2:hover .dropdown-content2 {
-    opacity: 1;
-    visibility: visible;
-    transform: translateX(-50%) translateY(5px);
-}
-
-.krut-el-svg3:hover .dropdown-content3 {
-    opacity: 1;
-    visibility: visible;
-    transform: translateX(-50%) translateY(5px);
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .krut-el-top {
     display: flex;
     height: 22%;
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .krut-el-right {
     margin-top: 31%;
     display: flex;
     height: 22%;
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 
-.krut-el-par{
+.krut-el-svg1:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.krut-el-svg1:not(:hover) {
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.krut-el-svg2:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.krut-el-svg2:not(:hover) {
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.krut-el-svg3:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.krut-el-svg3:not(:hover) {
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.drop-okn1 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    min-width: 200px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.drop-okn2 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    min-width: 200px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.drop-okn3 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    min-width: 200px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.krut-el-svg1:hover~.drop-okn1 {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(5px);
+}
+
+.krut-el-svg2:hover~.drop-okn2 {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(5px);
+}
+
+.krut-el-svg3:hover~.drop-okn3 {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(5px);
+}
+
+.krut-el-par {
     margin-right: 5%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-top: 7%;
@@ -445,11 +500,252 @@ main {
 }
 
 .page2-foot-par {
-    margin-top: 11.5%;
+    margin-top: 20.5%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 160%;
     letter-spacing: 0%;
     text-align: center;
+}
+
+.page3 {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 87%;
+    margin-top: 48%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page3-header {
+    gap: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page3-h1 {
+    margin-bottom: 5%;
+}
+
+.page3-cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2%;
+    margin-top: 3%;
+    max-width: 1200px;
+    justify-items: center;
+}
+
+.page3-cont-el:nth-child(-n+3) {
+    grid-column: span 1;
+}
+
+.page3-cont-el:nth-child(4), .page3-cont-el:nth-child(5) {
+    margin-left: 100%;
+    grid-column: span 1;
+    grid-row: 2;
+}
+
+.page3-cont-el {
+    background: white;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(152, 62, 62, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    width: 100%;
+    /* Чтобы элементы занимали всю ширину ячейки */
+    max-width: 300px;
+    /* Ограничиваем максимальную ширину */
+}
+
+.page3-cont-el:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(152, 62, 62, 0.15);
+}
+
+.page3-cont-el-header {
+    gap: 5%;
+    display: flex;
+    justify-content: baseline;
+}
+
+.page3-cont-el-header-par {
+    margin-top: 4%;
+    font-weight: bold;
+
+}
+
+.page3-cont-el-par {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.page4 {
+    background-color: white;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 400%;
+    margin-top: 98%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page4-header{
+    margin-top: 5%;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page4-el1{
+    margin: 5%;
+    display: flex;
+    width: 55%;
+    height: 13%;
+}
+
+.page4-el1-cont{
+    margin-left: 10%;
+    width: 30%;
+    gap: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.page4-el1-cont-str{
+    width: 100%;
+    gap: 30px;
+    display: flex;
+}
+
+.page4-el1-cont-str-par{
+    width: 80%;
+}
+
+.page4-el2{
+    display: flex;
+    width: 55%;
+    height: 19%;
+}
+
+.page4-el2-cont{
+    margin-right: 10%;
+    width: 80%;
+    gap: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.page4-el2-cont-str{
+    width: 100%;
+    gap: 30px;
+    display: flex;
+}
+.page4-el2-img{
+    aspect-ratio: 9.65/10;
+    width: 80%;
+    height: 100%;
+    margin-right: 20%;
+}
+
+.page4-el2-cont-str-par{
+    width: 80%;
+}
+
+.page4-el3{
+    margin: 5%;
+    display: flex;
+    width: 55%;
+    height: 14%;
+}
+
+.page4-el3-cont{
+    margin-left: 10%;
+    width: 30%;
+    gap: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.page4-el3-cont-str{
+    width: 100%;
+    gap: 30px;
+    display: flex;
+}
+
+.page4-el3-cont-str-par{
+    width: 80%;
+}
+
+.page4-el4{
+    content: "";
+    background-image: url(../ass/IMG_9307-removebg-preview\ 1.png), url(../ass/Ellipse\ 14.png);
+    
+    background-image: 60%;
+    background-repeat: no-repeat;
+    background-position: 100% 70%;
+
+    width: 55%;
+    padding-left: 3%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    border:#DA9F9F 15px solid;
+}
+
+.page4-el4-text-part{
+    margin-bottom: 5%;
+}
+
+.page4-el4-text-part-h2{
+    margin-bottom: 5%;
+}
+
+.page4-el4-text-part-par{
+    font-size: large;
+    font-weight: 400;
+    font-weight: italic;
+}
+
+.row{
+    margin-top: 10% !important;
+    margin-bottom: 5% !important;
+}
+
+.formy{
+    width: 60%;
+}
+
+.reg-but{
+
+    margin-top: 15%;
+    display:flex;
+}
+
+.strel-but{
+    margin-right: 5%;
+    border: transparent;
+}
+
+.strel-but:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+.strel-but:not(:hover){
+    transform: scale(1);
+    transition: 0.3s;
 }
