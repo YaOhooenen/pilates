@@ -544,7 +544,8 @@ main {
     grid-column: span 1;
 }
 
-.page3-cont-el:nth-child(4), .page3-cont-el:nth-child(5) {
+.page3-cont-el:nth-child(4),
+.page3-cont-el:nth-child(5) {
     margin-left: 100%;
     grid-column: span 1;
     grid-row: 2;
@@ -592,14 +593,14 @@ main {
     content: "";
     position: absolute;
     width: 100%;
-    height: 400%;
+    height: 320%;
     margin-top: 98%;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.page4-header{
+.page4-header {
     margin-top: 5%;
     gap: 30px;
     display: flex;
@@ -607,93 +608,140 @@ main {
     flex-direction: column;
 }
 
-.page4-el1{
+.page4-el1 {
     margin: 5%;
     display: flex;
     width: 55%;
-    height: 13%;
+    height: 17%;
 }
 
-.page4-el1-cont{
+.page4-el1-cont {
     margin-left: 10%;
     width: 30%;
     gap: 5%;
     display: flex;
     align-items: center;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
-.page4-el1-cont-str{
+.page4-el1-cont-str {
+    padding-left: 3%;
+    align-items: center;
     width: 100%;
     gap: 30px;
     display: flex;
 }
 
-.page4-el1-cont-str-par{
+.page4-el1-cont-str:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+    z-index: 1;
+    box-shadow: 0 10px 20px gray;
+}
+
+.page4-el1-cont-str:not(:hover) {
+    transform: scale(1);
+    transition: 0.3s;
+    z-index: 1;
+}
+
+.page4-el1-cont-str-par {
     width: 80%;
 }
 
-.page4-el2{
+.page4-el2 {
     display: flex;
     width: 55%;
-    height: 19%;
+    height: 24%;
 }
 
-.page4-el2-cont{
+.page4-el2-cont {
     margin-right: 10%;
     width: 80%;
     gap: 2%;
     display: flex;
     align-items: center;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
-.page4-el2-cont-str{
+.page4-el2-cont-str {
+    padding-left: 3%;
+    padding-right: 3%;
+    align-items: center;
     width: 100%;
     gap: 30px;
     display: flex;
 }
-.page4-el2-img{
+
+.page4-el2-cont-str:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+    z-index: 1;
+    box-shadow: 0 10px 20px gray;
+}
+
+.page4-el2-cont-str:not(:hover) {
+    transform: scale(1);
+    transition: 0.3s;
+    z-index: 1;
+}
+
+.page4-el2-img {
     aspect-ratio: 9.65/10;
     width: 80%;
     height: 100%;
     margin-right: 20%;
 }
 
-.page4-el2-cont-str-par{
+.page4-el2-cont-str-par {
     width: 80%;
 }
 
-.page4-el3{
+.page4-el3 {
     margin: 5%;
     display: flex;
     width: 55%;
-    height: 14%;
+    height: 17%;
 }
 
-.page4-el3-cont{
+.page4-el3-cont {
     margin-left: 10%;
     width: 30%;
     gap: 5%;
     display: flex;
     align-items: center;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
-.page4-el3-cont-str{
+.page4-el3-cont-str {
+    padding-left: 3%;
+    align-items: center;
     width: 100%;
     gap: 30px;
     display: flex;
 }
 
-.page4-el3-cont-str-par{
+.page4-el3-cont-str:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+    z-index: 1;
+    box-shadow: 0 10px 20px gray;
+}
+
+.page4-el3-cont-str:not(:hover) {
+    transform: scale(1);
+    transition: 0.3s;
+    z-index: 1;
+}
+
+.page4-el3-cont-str-par {
     width: 80%;
 }
 
-.page4-el4{
+.page4-el4 {
     content: "";
     background-image: url(../ass/IMG_9307-removebg-preview\ 1.png), url(../ass/Ellipse\ 14.png);
-    
+
     background-image: 60%;
     background-repeat: no-repeat;
     background-position: 100% 70%;
@@ -703,49 +751,49 @@ main {
     padding-right: 5%;
     padding-top: 3%;
     padding-bottom: 2%;
-    border:#DA9F9F 15px solid;
+    border: #DA9F9F 15px solid;
 }
 
-.page4-el4-text-part{
+.page4-el4-text-part {
     margin-bottom: 5%;
 }
 
-.page4-el4-text-part-h2{
+.page4-el4-text-part-h2 {
     margin-bottom: 5%;
 }
 
-.page4-el4-text-part-par{
+.page4-el4-text-part-par {
     font-size: large;
     font-weight: 400;
     font-weight: italic;
 }
 
-.row{
+.row {
     margin-top: 10% !important;
     margin-bottom: 5% !important;
 }
 
-.formy{
+.formy {
     width: 60%;
 }
 
-.reg-but{
+.reg-but {
 
     margin-top: 15%;
-    display:flex;
+    display: flex;
 }
 
-.strel-but{
+.strel-but {
     margin-right: 5%;
     border: transparent;
 }
 
-.strel-but:hover{
+.strel-but:hover {
     transform: scale(1.03);
     transition: 0.3s;
 }
 
-.strel-but:not(:hover){
+.strel-but:not(:hover) {
     transform: scale(1);
     transition: 0.3s;
 }
